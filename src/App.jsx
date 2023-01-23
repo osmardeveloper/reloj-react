@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import casio from '../public/edifice.png'
+import rolex from '../public/rolexbg2.png'
 
 const date = new Date()
 
@@ -23,10 +25,10 @@ function App() {
   return (
     <div className="App">
       <div className='container-1'>
-      <img src="./src/assets/edifice.png" alt="casio"  />
+      <img src={casio} alt="casio"  />
       <h1>{hours < 10 ? 0 : ""}{hours}:{minutes < 10 ? 0 : ""}{minutes}:{seconds < 10 ? 0 : ""}{seconds}</h1></div>
       <div className='container-2'>
-      <img src="./src/assets/rolexbg2.png" alt="rolex" />
+      <img src={rolex} alt="rolex" />
       <h1>{hours < 10 ? 0 : ""}{hours}:{minutes < 10 ? 0 : ""}{minutes}:{seconds < 10 ? 0 : ""}{seconds}</h1>
       </div>
       
