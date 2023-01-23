@@ -1,0 +1,152 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container-1 img{
+  width: 175px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: auto;
+}
+
+.container-1 h1{
+  font-size: 3rem;
+  margin: 15px;
+  font-family: 'Share Tech mono', monospace;
+  text-shadow: 0 0 20px rgba(10,175,230,1), 0 0 20px rgba(10,175,230,0);
+  }
+
+  .container-2 h1{
+    font-size: 2.7rem;
+    margin: px 0;
+    text-shadow: 0 0 7px rgba(32, 250, 3, 0.815), 0 0 3px rgba(133, 85, 245, 0.733);
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+  .container-2 img{
+    width: 200px;
+    height: auto;
+  }
+  
+  
+ .container-1{
+  background-color: rgba(9, 6, 31, 0.7);
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 2rem;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.815), 0 0 20px rgba(10,175,230,1);
+  
+  }
+
+  .container-2{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgb(252, 245, 245), 0 0 12px rgb(25, 255, 4);
+    letter-spacing: 4px;
+    }
+
+    .App{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+
+
+@media(max-width: 480px){
+  .container-1 h1{
+    font-size: 2.2rem;
+    margin: 15px 0;
+    }
+
+    .container-2 h1{
+      font-size: 1.9rem;
+      margin: 15px 0;
+      }
+    .App{
+      padding: 5px;
+    
+      }
+      .container-2{
+        width: 200px;
+        height: 200px;
+      }
+      .container-1{
+        height: 200px;
+      }
+}
+
+@media(min-width: 481px){
+  
+    .container-1{
+     width: 280px;
+      }
+    }
+@media(min-width: 950px){
+  .App{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .container-1{
+    height: 270px;
+    margin: 3rem;
+  }
+
+
+}
