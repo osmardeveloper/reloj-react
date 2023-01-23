@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <div className='container-1'>
-      <img src="./src/assets/edifice.png" alt="casio" />
+      <img src="./src/assets/edifice.png" alt="casio"  />
       <h1>{hours < 10 ? 0 : ""}{hours}:{minutes < 10 ? 0 : ""}{minutes}:{seconds < 10 ? 0 : ""}{seconds}</h1></div>
       <div className='container-2'>
       <img src="./src/assets/rolexbg2.png" alt="rolex" />
